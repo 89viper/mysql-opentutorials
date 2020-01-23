@@ -11,5 +11,5 @@ mysql -uroot -p //비밀번호 입력하고 데이터베이스 서버에 접속�
 
 ## 데이터베이스 생성
 ```
-CREATE DATABASE 데이터베이스이름
+CREATE DATABASE 데이터베이스이름;
 ```
