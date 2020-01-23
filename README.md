@@ -20,6 +20,12 @@ USE 데이터베이스이름;                 //해당 데이터베이스를 사
 ## 테이블 명령어
 ```
 CREATE TABLE 테이블이름(             //테이블 생성
-  id INT(11) NOT NULL AUTO_INCREMENT      // id 라는 이름의 컬럼을 INT형으로 생성. NULL값을 허용하지 않고 자동 증가하는 설정
-)
+  id INT(11) NOT NULL AUTO_INCREMENT,     // id 라는 이름의 컬럼을 INT형으로 생성. NULL값을 허용하지 않고 자동 증가하는 설정
+  title VARCHAR(100) NOT NULL,
+  description TEXT NULL,
+  created DATETIME NOT NULL,
+  author VARCHAR(30) NULL,
+  profile VARCHAR(100) NULL,
+  PRIMARY KEY(id)
+);
 ```
