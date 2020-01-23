@@ -11,8 +11,8 @@ mysql -uroot -p //비밀번호 입력하고 데이터베이스 서버에 접속�
 
 ## 데이터베이스 명령어
 ```
-CREATE DATABASE 데이터베이스이름; //데이터베이스 생성
-DROP DATABASE 데이터베이스이름; //데이터베이스 삭제
-SHOW DATABASES; //데이터베이스 목록 보기
-USE 데이터베이스이름; //해당 데이터베이스를 사용함
+CREATE DATABASE 데이터베이스이름;     //데이터베이스 생성
+DROP DATABASE 데이터베이스이름;       //데이터베이스 삭제
+SHOW DATABASES;                     //데이터베이스 목록 보기
+USE 데이터베이스이름;                 //해당 데이터베이스를 사용함
 ```
