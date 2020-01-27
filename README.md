@@ -29,3 +29,13 @@ CREATE TABLE 테이블이름(             //테이블 생성
   PRIMARY KEY(id)
 );
 ```
+
+##SQL Insert 구문 (데이터 행 추가하기)
+```
+INSERT INTO 테이블이름 (타입1, 타입2, 타입3, ...) VALUES ( 값1, 값2, 값3, ... )
+> INSERT INTO topic (title, description, created, author, profile) VALUES('MySQL', 'MySQL is ...', NOW(), 'me', 'developer');
+
+* DESC 테이블이름;//해당 테이블의 구조보기
+
+SELECT * FROM topic; //topic 테이블의 모든 데이터 보기
+```
