@@ -30,12 +30,26 @@ CREATE TABLE 테이블이름(             //테이블 생성
 );
 ```
 
-##SQL Insert 구문 (데이터 행 추가하기)
+## SQL Insert 구문 (데이터 행 추가하기)
 ```
 INSERT INTO 테이블이름 (타입1, 타입2, 타입3, ...) VALUES ( 값1, 값2, 값3, ... )
 > INSERT INTO topic (title, description, created, author, profile) VALUES('MySQL', 'MySQL is ...', NOW(), 'me', 'developer');
 
 * DESC 테이블이름;//해당 테이블의 구조보기
 
-SELECT * FROM topic; //topic 테이블의 모든 데이터 보기
+
 ```
+
+## SQL Select 구문 (데이터 읽어오기)
+```
+SELECT * FROM topic; //topic 테이블의 모든 데이터 보기
+<<<<<<< HEAD
+
+SELECT id, title, created, author FROM topic; //원하는 컬럼만 보기
+SELECT id, title, created, author FROM topic WHERE author='me'; //조건에 맞는 데이터만 출력
+SELECT id, title, created, author FROM topic WHERE author='me' ORDER BY id DESC; // 큰 값 부터 낮은 값 순으로 출력
++ LIMIT 2 //출력 줄 개수 제한
+```
+=======
+```
+>>>>>>> c71fbb9a005be0f53b5a603628d4bebd82d30fff
