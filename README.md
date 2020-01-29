@@ -44,12 +44,16 @@ INSERT INTO 테이블이름 (타입1, 타입2, 타입3, ...) VALUES ( 값1, 값2
 ```
 SELECT * FROM topic; //topic 테이블의 모든 데이터 보기
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 SELECT id, title, created, author FROM topic; //원하는 컬럼만 보기
 SELECT id, title, created, author FROM topic WHERE author='me'; //조건에 맞는 데이터만 출력
 SELECT id, title, created, author FROM topic WHERE author='me' ORDER BY id DESC; // 큰 값 부터 낮은 값 순으로 출력
 + LIMIT 2 //출력 줄 개수 제한
 ```
+=======
+```
+>>>>>>> c71fbb9a005be0f53b5a603628d4bebd82d30fff
 =======
 ```
 >>>>>>> c71fbb9a005be0f53b5a603628d4bebd82d30fff
