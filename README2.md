@@ -31,6 +31,7 @@ SELECT * FROM topic LEFT JOIN author ON topic.author_id = author.id;
 
 SELECT topic.id, title, description, name, profile FROM topic LEFT JOIN author ON topic.author_id = author.id;
 (topic.id AS topic_id 로 표시되는 열 이름 변경 가능)
-
-
 ```
+
+## 데이터베이스 클라이언트
+MySQL monitor, MySQL Workbench 등
