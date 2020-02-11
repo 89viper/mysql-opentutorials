@@ -30,7 +30,7 @@ CREATE TABLE 테이블이름(             //테이블 생성
 );
 ```
 
-##SQL Insert 구문 (데이터 행 추가하기)
+## SQL Insert 구문 (데이터 행 추가하기)
 ```
 INSERT INTO 테이블이름 (타입1, 타입2, 타입3, ...) VALUES ( 값1, 값2, 값3, ... )
 > INSERT INTO topic (title, description, created, author, profile) VALUES('MySQL', 'MySQL is ...', NOW(), 'me', 'developer');
