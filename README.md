@@ -51,9 +51,8 @@ SELECT id, title, created, author FROM topic WHERE author='me'; //조건에 맞�
 SELECT id, title, created, author FROM topic WHERE author='me' ORDER BY id DESC; // 큰 값 부터 낮은 값 순으로 출력
 + LIMIT 2 //출력 줄 개수 제한
 ```
-=======
+
+## SQL Update 구문 (데이터 수정)
 ```
->>>>>>> c71fbb9a005be0f53b5a603628d4bebd82d30fff
-=======
+UPDATE topic SET description ='value', title='value2' WHERE id = 2; // 수정방법
 ```
->>>>>>> c71fbb9a005be0f53b5a603628d4bebd82d30fff
