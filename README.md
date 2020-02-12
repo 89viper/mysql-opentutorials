@@ -54,5 +54,6 @@ SELECT id, title, created, author FROM topic WHERE author='me' ORDER BY id DESC;
 
 ## SQL Update 구문 (데이터 수정)
 ```
+<<<<<<< HEAD
 UPDATE topic SET description ='value', title='value2' WHERE id = 2; // 수정방법
 ```
