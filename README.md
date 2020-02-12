@@ -43,8 +43,6 @@ INSERT INTO 테이블이름 (타입1, 타입2, 타입3, ...) VALUES ( 값1, 값2
 ## SQL Select 구문 (데이터 읽어오기)
 ```
 SELECT * FROM topic; //topic 테이블의 모든 데이터 보기
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 SELECT id, title, created, author FROM topic; //원하는 컬럼만 보기
 SELECT id, title, created, author FROM topic WHERE author='me'; //조건에 맞는 데이터만 출력
